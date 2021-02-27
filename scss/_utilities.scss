@@ -1,0 +1,15 @@
+$blackColor: black;
+.row{
+	column-count:3;
+	column-rule:1px solid $blackColor;
+	column-width:250px;
+	column-gap:20px;
+	.col-4{
+		border:1px solid $blackColor;
+	}
+}
+@media (max-width:805px){
+	.col-4{
+		margin-top:10px;
+	}
+}

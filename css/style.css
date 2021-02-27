@@ -1,0 +1,49 @@
+.row {
+  column-count: 3;
+  column-rule: 1px solid black;
+  column-width: 250px;
+  column-gap: 20px;
+}
+
+.row .col-4 {
+  border: 1px solid black;
+}
+
+@media (max-width: 805px) {
+  .col-4 {
+    margin-top: 10px;
+  }
+}
+
+#services {
+  background: purple;
+  margin-top: 15px;
+  padding: 20px;
+  color: black;
+}
+
+#mymixin {
+  margin-top: 20px;
+}
+
+.akib1, .akib3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background: purple;
+}
+
+.akib2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background: orange;
+}
+
+.akib3 {
+  background: yellow;
+  height: 500px;
+}
+/*# sourceMappingURL=style.css.map */

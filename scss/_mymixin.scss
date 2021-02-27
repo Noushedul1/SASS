@@ -1,0 +1,16 @@
+@mixin ourmixin($changeVariable,$height){
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height:$height;
+    background: $changeVariable;
+}
+#mymixin{
+    margin-top:20px;
+}
+.akib1{
+   @include ourmixin(purple,100px);
+}
+.akib2{
+    @include ourmixin(orange,200px);
+}
